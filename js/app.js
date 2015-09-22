@@ -17,7 +17,10 @@ lowesCpn.config(function($routeProvider){
 		})
 		.when('/complete', {
 			templateUrl: 'js/complete/completeTmpl.html',
-			contorller: 'completeCtrl'
+			controller: 'completeCtrl'
+		})
+		.when('/mktReport', {
+			templateUrl: 'js/MktReport/mktReportTmpl.html'
 		})
 		.when('/login', {
 			templateUrl: 'js/admin/loginTmpl.html',

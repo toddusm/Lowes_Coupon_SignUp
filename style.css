@@ -224,6 +224,27 @@ li {
     margin-left: 1%;
 }
 
+
+/*Market Report CSS*/
+#mktbackground{
+    background: #F7F7F7;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#report-box {
+    margin-left: 3%;
+}
+
+#question-box {
+    margin-left: 3%;
+}
+
+
+
 /*
 http://gallery.intelligencer.ca/cache/derivative/1/6/1690219.dat*/
  
