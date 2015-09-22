@@ -22,8 +22,8 @@ lowesCpn.controller('adminCtrl', function($scope, $firebaseAuth, authRef, $locat
 		var answer = confirm("Delete User")
 		if(answer) {
 		$scope.userList.$remove(user)
-		} else {}
-	}
+		} else {} 
+	}  
 	
 	});
 	
