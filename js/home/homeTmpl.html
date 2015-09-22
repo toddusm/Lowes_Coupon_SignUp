@@ -1,5 +1,6 @@
 <navbar></navbar>
-
+<div id="background">
+  
 <div class="container">
 <div id="home-text">
 	<h1>Have a big home repair or Home project let me help you save money!</h1>
@@ -9,25 +10,25 @@
 
 </div>
 
-<form name="cpnInput" ng-submit="getSubmit(user)">
-<div class="form-group">
-  <span class="input-group-addon" id="basic-addon1">ex: John Doe</span>
-  <input type="text" class="form-control" placeholder="Full Name" aria-describedby="basic-addon1" ng-model="user.name" required>
+<form name="cpnInput" ng-submit="getSubmit(user)" id="home-input">
+<div class="form-group" id="name-input">
+  <span class="input-group-addon" id="basic-addon1">Full Name</span>
+  <input type="text" class="form-control" placeholder="John Doe" aria-describedby="basic-addon1" ng-model="user.name" required>
 </div>
 
 <div class="form-group" id="email-input">
-  <span class="input-group-addon" id="basic-addon2">@example.com</span>
-  <input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon2" ng-model="user.email" required>
+  <span class="input-group-addon" id="basic-addon2">Your Email</span>
+  <input type="email" class="form-control" placeholder="@example.com" aria-describedby="basic-addon2" ng-model="user.email" required>
 </div>
 
 <div class="form-group" id="address-input">
-  <span class="input-group-addon" id="basic-addon2">1776 Indepedence Way, Freedom UT 84789</span>
-  <input type="text" class="form-control" placeholder="Address" aria-describedby="basic-addon2" ng-model="user.address" required>
+  <span class="input-group-addon" id="basic-addon2">Address</span>
+  <input type="text" class="form-control" placeholder="1776 Indepedence Way, Freedom UT 84789" aria-describedby="basic-addon2" ng-model="user.address" required>
 </div>
 
 <div class="form-group" id="phone-number-input">
-  <span class="input-group-addon" id="basic-addon2">555-555-5555</span>
-  <input type="text" class="form-control" placeholder="Number" aria-describedby="basic-addon2" ng-model="user.num" required>
+  <span class="input-group-addon" id="basic-addon2">Phone Number</span>
+  <input type="text" class="form-control" placeholder="555-555-5555" aria-describedby="basic-addon2" ng-model="user.num" required>
 </div>
 
 <button type="submit" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="submit-button" ng-click="getSubmit(user)">
@@ -36,6 +37,7 @@
 </form>
 </div>
 
+</div>
 
 
 

@@ -1,20 +1,5 @@
 var lowesCpn = angular.module('lowesCpn');
 	
-	// lowesCpn.controller('loginCtrl', function($scope, $location, $firebaseAuth){
-	// 	$scope.user = {};
-	// 	$scope.authRef.$authWithPassword({
-  	// 	 email: "user.email",
- 	// 	 password: "user.password"
-	// 	}).then(function(authData) {
-  	// 	console.log("Logged in as:", authData.uid);
-	// 	}).catch(function(error) {
-  	// 	console.error("Authentication failed:", error);
-	// 	});
-	
-		
-	// });
-	
-	
 	lowesCpn.controller('loginCtrl', function($scope, $location, $firebaseAuth){
 		var firebaseObj = new Firebase('https://lowes-coupon.firebaseio.com/');
 		var loginObj = $firebaseAuth(firebaseObj);
@@ -24,17 +9,18 @@ var lowesCpn = angular.module('lowesCpn');
 			loginObj.$authWithPassword({
            		 email: username,
 				 password: password
-        }, function(error, authData) {
+        }).then(function(user) {
             //Failure callback
-			if(error){
-            console.log('Authentication failure');
-			alert('wrong password or username. Please try again');
-		} else {
-			console.log('Authentication successful', authData);
+			console.log('Authentication successful', user);
 			$location.path('/admin');
-		}
+		}, function(user){
+			 console.log('Authentication failure');
+			alert('wrong password or username. Please try again');
 		})
-		
-		
 		}
 	});
+	
+	
+	
+	
+	

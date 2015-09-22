@@ -1,9 +1,16 @@
 <navbar></navbar>
 
-<h1>Thank you for submitting the form. Please check your inbox the coupon should be arriving soon.</h1>
+<div class="container">
+<h1 id="complete-h1">Success! Your Coupon should be arriving soon.</h1>
 
-<p>If you have any questions or you want to know how much your home will be worth after your repair or project just click the button below.</p>
+<p id="cp-text">If you have any questions or you want to know how much your home will be worth after your repair or project just click the button below.</p>
 
-<a href='http://tpr.cm/5qd'><button>Market Report</button></a>
+<button type="submit" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="market-report" ng-click="getReport()">
+  Market Report
+</button>
+
+<!--<a href='http://tpr.cm/5qd'><button id="market-report">Market Report</button></a>-->
+
+</div>
 
 <custom-footer></custom-footer>
