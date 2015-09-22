@@ -25,8 +25,6 @@ lowesCpn.controller('adminCtrl', function($scope, $firebaseAuth, authRef, $locat
 		} else {}
 	}
 	
-	
-	
 	});
 	
 	

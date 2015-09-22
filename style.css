@@ -1,13 +1,12 @@
 /*navbar css*/
 
-
 #headshot {
 	margin-top: -10px;
 }
 
 #slogan {
 	text-align: center;
-	display: inline-block;
+	display: inline;
     margin-left: 22%;
     color: white;
 }
@@ -28,7 +27,7 @@ return-home {
 /*footer css*/
 
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 40px;
@@ -56,70 +55,16 @@ return-home {
   
   /*homeTmpl css*/
   
-  body {
-      background-image: url(http://buzzerg.com/wp-content/uploads/8589130418266-lowes-wallpaper-hd.jpg);
-      background-repeat: no-repeat;
-      background-size:  cover;
-      width: 100%;
-      height: 100%;
-  }
-  
-  
  #home-text {
      text-align: center;
-     color: white;
-     text-shadow: 2px 2px 4px #0350A6;
- }
- 
- #basic-addon1 {
-     border-radius: 4em;
- }
- 
- #name-input {
-     margin: 3%;
-     width: 50%;
-     margin-left: 25%;
-     opacity: 0.8;
- }
- 
- #basic-addon2 {
-     border-radius: 4em;
  }
  
  #email-input {
-     margin: 3%;
-     width: 50%;
-     margin-left: 25%;
-     opacity: 0.8;
- }
- 
- #basic-addon3 {
-     border-radius: 4em;
+     margin: 1%;
  }
  
  #address-input {
-    margin: 3%;
-     width: 50%;
-     margin-left: 25%;
-     opacity: 0.8; 
- }
- 
-  #basic-addon4 {
-     border-radius: 4em;
- }
- 
- #phone-number-input{
-      margin: 1%;
-     width: 50%;
-     margin-left: 25%;
-     opacity: 0.8; 
- }
- 
- .input-group-addon {
-     color:white;
-     background-color: #0350A6;
-     border: 1px solid #0350A6;
-     opacity: 0.5;
+    margin: 1%; 
  }
  
  #submit-button{
@@ -139,9 +84,6 @@ return-home {
     border-color:#d2d2d2;
     border-width: 5px;
     box-shadow:0 1px 0 #cfcfcf;
-    opacity: 0.8;
-    margin-top: 50%;
-    margin-left: -20%;
 }
 
 h4 { 
@@ -163,61 +105,5 @@ h4 {
     text-decoration: line-through;
 }
 
-/*complete css*/
-
-#complete-h1 {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 5em;
-    text-shadow: 2px 2px 4px #0350A6;
-}
-
-#cp-text {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 2em;
-}
-
-#market-report {
-    margin-left: 47%;
-    margin-top: 1%;
-}
-
-/*admin css*/
-
-
-#adminBackground{
-    background: white;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-}
-
-#admin-h1 {
-    text-align: center;
-}
-
-#admin-border-line {
-    height: 3px;
-    color: black;
-    background-color: #0350A6;
-}
-
-li {
-    list-style: none;
-    line-height:  2em;
-}
-
-#delete-btn {
-    margin-left: 2%;
-}
-
-
-
  
-
-
 
