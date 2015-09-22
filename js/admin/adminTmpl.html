@@ -1,0 +1,28 @@
+<navbar></navbar>
+
+
+
+<h1>Requested List</h1>
+
+<!--<form ng-submit="getList()">
+<button class="btn waves-effect waves-light" type="submit" name="action" class="z-depth-5" id="search-button">Get List</button>
+</form>	-->
+
+<ul>
+	<li ng-class="{strike: user.checked}" ng-repeat="user in userList">{{user.date | date:'medium'}} {{user.name}} {{user.address}} {{user.email}} {{user.num}}   
+		<input type="checkbox" ng-model="user.checked" ng-change="userList.$save(user)">
+		<button type="button" class="btn btn-primary btn-xs" ng-click="delete(user)">Delete</button>
+	</li>
+</ul>							
+
+
+
+
+
+
+
+<custom-footer></custom-footer>
+
+
+<!--"entity.isChecked"-->
+<!--selectEntity(user, $index)-->

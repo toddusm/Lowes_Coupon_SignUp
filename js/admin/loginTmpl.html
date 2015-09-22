@@ -1,0 +1,41 @@
+<!--<div class="container">
+  <h1>Welcome Admin</h1>
+  <button ng-click="toggleModal()" class="btn btn-default">Click to Log in</button>
+    
+  <modal title="Login form" visible="showModal">
+    <form role="form">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="user.email" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" ng-model="user.password"/>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </modal>
+</div>-->
+<navbar></navbar>
+
+<div class="container" id="login-bx">
+    <div class="row">
+        <form name="Auth-login" class="col-md-offset-5 col-md-3" ng-submit="signIn(user)">
+            <div class="form-login">
+            <h4>Welcome back.</h4>
+            <input type="email" id="userName" class="form-control input-sm chat-input" placeholder="email" ng-model="user.email"/>
+            </br>
+            <input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" ng-model="user.password"/>
+            </br>
+            <div class="wrapper">
+            <span class="group-btn">     
+                <button class="btn btn-primary btn-md" ng-click="SignIn(user)">login <i class="fa fa-sign-in"></i></button>
+            </span>
+            </div>
+            </div>
+        
+        </form>
+    </div>
+</div>
+
+<custom-footer></custom-footer>
