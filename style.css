@@ -1,115 +1,4 @@
 /*navbar css*/
-
-#headshot {
-	margin-top: -10px;
-}
-
-#slogan {
-	text-align: center;
-	display: inline;
-    margin-left: 22%;
-    color: white;
-}
-
-#navbar {
-    background-color: #0350A6;
-}
-
-.container-fluid {
-    background-color: #0350A6;
-}
-
-return-home {
-    float: right;
-    margin-top: 1%;
-}
-
-/*footer css*/
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: #0350A6;
-    display: flex;
-    justify-content: center;
-}
-
-#sm-links {
-    display: flex;
-    align-items: center;
-  }
-  
- #fb-logo {
-     padding-right: 10px;
- }
- 
- #youtube-logo {
-     padding-left: 10px;
- }
- 
- #login-btn {
-     padding-left: 10px;
- }
-  
-  /*homeTmpl css*/
-  
- #home-text {
-     text-align: center;
- }
- 
- #email-input {
-     margin: 1%;
- }
- 
- #address-input {
-    margin: 1%; 
- }
- 
- #submit-button{
-    margin-left: 47%;
-    margin-top: 1%;
- }
- 
- /*login css*/
- 
-.form-login {
-    background-color: #EDEDED;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
-    border-color:#d2d2d2;
-    border-width: 5px;
-    box-shadow:0 1px 0 #cfcfcf;
-}
-
-h4 { 
- border:0 solid #fff; 
- border-bottom-width:1px;
- padding-bottom:10px;
- text-align: center;
-}
-
-.form-control {
-    border-radius: 10px;
-}
-
-.wrapper {
-    text-align: center;
-}
-
-.strike {
-    text-decoration: line-through;
-}
-
- 
-
-/*navbar css*/
-
-
 #headshot {
 	margin-top: -10px;
 }
@@ -119,6 +8,7 @@ h4 {
 	display: inline-block;
     margin-left: 22%;
     color: white;
+    text-shadow: 2px 2px 4px black;
 }
 
 #navbar {
@@ -174,11 +64,15 @@ return-home {
   }
   
   
- #home-text {
+ .home-text {
      text-align: center;
      color: white;
      text-shadow: 2px 2px 4px black;
  }
+ 
+.home-p {
+    font-size: 1.2em;
+}
  
  #basic-addon1 {
      border-radius: 4em;
@@ -189,6 +83,7 @@ return-home {
      width: 50%;
      margin-left: 25%;
      opacity: 0.8;
+     text-shadow: 2px 2px 4px black;
  }
  
  #basic-addon2 {
@@ -200,6 +95,7 @@ return-home {
      width: 50%;
      margin-left: 25%;
      opacity: 0.8;
+     text-shadow: 2px 2px 4px black;
  }
  
  #basic-addon3 {
@@ -211,6 +107,7 @@ return-home {
      width: 50%;
      margin-left: 25%;
      opacity: 0.8; 
+     text-shadow: 2px 2px 4px black;
  }
  
   #basic-addon4 {
@@ -222,6 +119,7 @@ return-home {
      width: 50%;
      margin-left: 25%;
      opacity: 0.8; 
+     text-shadow: 2px 2px 4px black;
  }
  
  .input-group-addon {
@@ -229,6 +127,7 @@ return-home {
      background-color: #0350A6;
      border: 1px solid #0350A6;
      opacity: 0.5;
+     text-shadow: 2px 2px 4px black;
  }
  
  #submit-button{
@@ -278,18 +177,18 @@ h4 {
     text-align: center;
     color: whitesmoke;
     font-size: 5em;
-    text-shadow: 2px 2px 4px #0350A6;
+    text-shadow: 2px 2px 4px black;
 }
 
 #cp-text {
     text-align: center;
     color: whitesmoke;
     font-size: 2em;
-    text-shadow: 2px 2px 4px #0350A6;
+    text-shadow: 2px 2px 4px black;
 }
 
 #market-report {
-    margin-left: 47%;
+    margin-left: 45%;
     margin-top: 1%;
 }
 
@@ -322,7 +221,7 @@ li {
 }
 
 #delete-btn {
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 /*
