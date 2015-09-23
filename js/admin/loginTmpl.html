@@ -20,16 +20,16 @@
 
 <div class="container" id="login-bx">
     <div class="row">
-        <form name="Auth-login" class="col-md-offset-5 col-md-3" ng-submit="signIn(user)">
+        <form name="Auth-login" class="col-md-offset-5 col-md-3" ng-submit="signIn(admin)">
             <div class="form-login">
-            <h4>Welcome back.</h4>
-            <input type="email" id="userName" class="form-control input-sm chat-input" placeholder="email" ng-model="user.email"/>
+            <h4>Admin Login</h4>
+            <input type="email" id="userName" class="form-control input-sm chat-input" placeholder="email" ng-model="admin.email"/>
             </br>
-            <input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" ng-model="user.password"/>
+            <input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" ng-model="admin.password"/>
             </br>
             <div class="wrapper">
             <span class="group-btn">     
-                <button class="btn btn-primary btn-md" ng-click="SignIn(user)">login <i class="fa fa-sign-in"></i></button>
+                <button class="btn btn-primary btn-md" ng-click="SignIn(admin)">login <i class="fa fa-sign-in"></i></button>
             </span>
             </div>
             </div>

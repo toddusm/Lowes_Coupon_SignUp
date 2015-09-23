@@ -7,17 +7,6 @@ lowesCpn.service('adminService', function(fb, $firebaseArray, $http){
 		return new Firebase(fb.url + '/login');
 	}
 	
-	// this.getList = function(){
-	// 	return $http({
-	// 		method: 'GET',
-	// 		url: 'https://lowes-coupon.firebaseio.com/home.json'
-	// 	}).then(function(users){
-	// 		var userList = users.data;
-	// 		console.log(1111, userList);
-	// 		return userList;
-	// 	})
-	// }
-	
 	this.getList = function(){
 		var users = $firebaseArray(usersRef);
 		users.$loaded(function(response) {
@@ -35,3 +24,16 @@ lowesCpn.service('adminService', function(fb, $firebaseArray, $http){
 	
 	
 })
+
+
+
+	// this.getList = function(){
+	// 	return $http({
+	// 		method: 'GET',
+	// 		url: 'https://lowes-coupon.firebaseio.com/home.json'
+	// 	}).then(function(users){
+	// 		var userList = users.data;
+	// 		console.log(1111, userList);
+	// 		return userList;
+	// 	})
+	// }
